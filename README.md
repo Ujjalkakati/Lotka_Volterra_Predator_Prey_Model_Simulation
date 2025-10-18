@@ -12,6 +12,7 @@ The Lotka-Volterra model represents the populations as follows:
 The dynamics are governed by the following system of differential equations:
 - dx/dt = αx -βxy
 - dy/dt = -γy + δxy
+---
 where:
 - α: Natural growth rate of rabbits (without predation)
 - β: Rate of predation upon the rabbits
