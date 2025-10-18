@@ -6,12 +6,12 @@ This repository contains an implementation of the Lotka-Volterra equations, a cl
 
 The Lotka-Volterra model represents the populations as follows:
 
--x: Rabbit population (prey)
--y: Fox population (predator)
+- x: Rabbit population (prey)
+- y: Fox population (predator)
 
 The dynamics are governed by the following system of differential equations:
-dx/dt = αx -βxy
-dy/dt = -γy + δxy
+- dx/dt = αx -βxy
+- dy/dt = -γy + δxy
 where:
 - α: Natural growth rate of rabbits (without predation)
 - β: Rate of predation upon the rabbits
